@@ -65,4 +65,32 @@ footer {
     padding: 10px;
     background: #222;
   }
-  
+  .review-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.review-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #ffcc00;
+    color: #222;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #e6b800;
+}
+
