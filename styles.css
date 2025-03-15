@@ -1,17 +1,22 @@
+/* Hippy Vibes Theme */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #3bceac);
+    color: #fff;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #fff;
 }
 
+/* Header */
 header {
-    background: #222;
+    background: rgba(255, 183, 3, 0.9);
     padding: 20px;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -19,78 +24,70 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #ffcc00;
+    color: #3b3b98;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.intro {
+/* Section Styling */
+.intro, .latest-reviews, .review-content {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.2);
 }
 
-.latest-reviews {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
+/* Review Cards */
 .review-card {
-    background: #333;
-    padding: 15px;
-    border-radius: 8px;
+    background: #ffcc5c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     max-width: 300px;
     text-align: center;
 }
 
 .review-card img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: 3px solid #3b3b98;
+}
+
+.review-card h3 {
+    color: #3b3b98;
+    font-family: 'Pacifico', cursive;
 }
 
 .review-card a {
     display: inline-block;
     margin-top: 10px;
-    color: #ffcc00;
+    padding: 10px 15px;
+    background: #3b3b98;
+    color: #ffcc5c;
     text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
+.review-card a:hover {
+    background: #292477;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background: #222;
-  }
-  .review-content {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: #333;
-    border-radius: 8px;
-    text-align: center;
+    background: rgba(255, 183, 3, 0.9);
+    font-family: 'Pacifico', cursive;
 }
 
-.review-content img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.back-button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 15px;
-    background: #ffcc00;
-    color: #222;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.back-button:hover {
-    background: #e6b800;
-}
-
+/* Groovy Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&display=swap');
+    
