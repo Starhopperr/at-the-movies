@@ -35,7 +35,7 @@ nav a {
 }
 
 /* Section Styling */
-.intro, .latest-reviews, .review-content, review-card {
+.intro, .latest-reviews, .review-content, .review-card {
     text-align: center;
     padding: 30px;
     border-radius: 10px;
@@ -45,7 +45,7 @@ nav a {
 }
 
 
-.review-content img, review-card img{
+.review-content img, .review-card img{
     max-width: 60%;  /* Reduces image size */
     height: auto;
     border-radius: 12px;
