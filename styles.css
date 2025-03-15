@@ -46,6 +46,9 @@ nav a {
 
 /* Review Cards */
 .review-card {
+    width: 50%;  /* Adjust width as needed */
+    margin: 0 auto; /* Centers it horizontally */
+    text-align: center;
     background: #ffcc5c;
     padding: 20px;
     border-radius: 12px;
