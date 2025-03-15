@@ -46,15 +46,12 @@ nav a {
 
 /* Review Cards */
 .review-card {
-    width: 50%;  /* Adjust width as needed */
-    margin: 0 auto; /* Centers it horizontally */
-    text-align: center;
-    background: #ffcc5c;
-    padding: 20px;
+    max-width: 60%;  /* Reduces image size */
+    height: auto;
     border-radius: 12px;
+    border: 4px solid #3b3b98;
+    margin-bottom: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    max-width: 300px;
-    text-align: center;
 }
 
 .review-content img {
