@@ -54,11 +54,22 @@ nav a {
     text-align: center;
 }
 
-.review-card img {
-    max-width: 100%;
+.review-content img {
+    max-width: 60%;  /* Reduces image size */
+    height: auto;
     border-radius: 12px;
-    border: 3px solid #3b3b98;
+    border: 4px solid #3b3b98;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* For smaller screens, make sure it's still responsive */
+@media (max-width: 768px) {
+    .review-content img {
+        max-width: 80%;
+    }
+}
+
 
 .review-card h3 {
     color: #3b3b98;
