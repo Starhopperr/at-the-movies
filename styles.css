@@ -35,7 +35,7 @@ nav a {
 }
 
 /* Section Styling */
-.intro, .latest-reviews, .review-content {
+.intro, .latest-reviews, .review-content, review-card {
     text-align: center;
     padding: 30px;
     border-radius: 10px;
@@ -44,17 +44,8 @@ nav a {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Review Cards */
-.review-card {
-    max-width: 60%;  /* Reduces image size */
-    height: auto;
-    border-radius: 12px;
-    border: 4px solid #3b3b98;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
 
-.review-content img {
+.review-content img, review-card img{
     max-width: 60%;  /* Reduces image size */
     height: auto;
     border-radius: 12px;
