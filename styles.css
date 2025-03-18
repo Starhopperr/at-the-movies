@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: url('images/DALL·E 2025-03-18 17.45.07 - A futuristic scene set in the middle of nowhere under a starry night sky. A man in a space suit stands before an old Chicago-style petrol pump, with h.webp') center/cover no-repeat;
+    background: url('banner.webp') center/cover no-repeat;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
