@@ -6,9 +6,13 @@ body {
 }
 
 header {
-    background-color: #d29b8b;
-    padding: 20px;
+    background: url('images/banner.jpg') center/cover no-repeat;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 50px 20px;
 }
+
 
 .latest-watches {
     margin: 20px auto;
