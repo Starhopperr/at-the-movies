@@ -2,48 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Starhopper at the movies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starhopper at the Movies</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
+
     <header>
-        Starhopper at the movies</</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
-                <li><a href="recco.html">Recommendations</a></li>
-                <li><a href="me.html">About</a></li>
-            </ul>
-        </nav>
+        <h1>Starhopper at the Movies</h1>
+        <p>Long Live Cinema</p>
     </header>
 
-    <section class="intro">
-        <h2>Long Live Cinema</h2>
-        <p>Honest reviews and recommendations for movie lovers!</p>
-    </section>
-
-    <section class="latest-reviews">
-        <h2>Latest Reviews</h2>
-        <div class="review-card">
-            <img src="images/Kaalakaandi.jpg" alt="Kaalakaandi Poster">
-            <h3>Kaalakaandi (2018)</h3>
-            <p>Life's handling you lemons, make lemonade then.</p>
-            <a href="reviews/Kaalakaandi.html">Read More</a>
-        </div>
-
-
-        <div class="review-card">
-            <img src="images/movie2.jpg" alt="Movie Poster">
-            <h3>Movie Title 2</h3>
-            <p>A short review summary...</p>
-            <a href="reviews/movie2.html">Read More</a>
+    <section class="latest-watches">
+        <h2>Latest Watches</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper" id="carousel"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Movie Reviews & Recommendations</p>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
-      </html>
+</html>
