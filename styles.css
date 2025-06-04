@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: Black;
+    color: white;
+}
+
+header {
+    background: url('banner.webp') center/cover no-repeat;
+    color: white;
+   
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.FavMwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.FavMcard {
+  flex: 1 1 calc(16.66% - 16px);
+  box-sizing: border-box;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(256,0,0,0.1);
+  transition: transform 1.0s ease, box-shadow 1.0s ease;
+color: black
+}
+
+.FavMcard:hover {
+  transform: translateY(-15px);
+  scale: 1.05;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.FavMcard img {
+  width: 100%;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.FavMcontainer {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .FavMcard {
+    flex: 1 1 calc(33.33% - 16px);
+  }
+}
+
+@media (max-width: 480px) {
+  .FavMcard {
+    flex: 1 1 calc(50% - 16px);
+  }
+}
