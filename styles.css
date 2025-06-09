@@ -101,4 +101,7 @@ header {
      max-width: calc(100% - 16px);
   }
 }
-
+.placeholder {
+  visibility: hidden;
+  pointer-events: none;
+}
