@@ -104,4 +104,5 @@ header {
 .placeholder {
   visibility: hidden;
   pointer-events: none;
+    color: black;
 }
